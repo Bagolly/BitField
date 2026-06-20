@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/bagolly.BitField/bagolly.BitField.csproj" />
+    <Project Path="src/bagolly.BitFieldDemo/bagolly.BitFieldDemo.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BitFieldTests/BitFieldTests.csproj" />
+  </Folder>
+</Solution>
