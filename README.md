@@ -3,7 +3,7 @@
 
 # BitField
 
-#### Contains a stateless, generic bitfield type `BitField<T>`. Can take advantage of hardware support through intrinsics, if available.
+Contains a stateless, generic bitfield type `BitField<T>`. Can take advantage of hardware support through intrinsics, if available.
 
 Currently, the following types are tested:
  - `byte`
@@ -16,7 +16,7 @@ Currently, the following types are tested:
 
 Although any type implementing the required interfaces can be used. The bitfield itself will always equal the type's size, hence "stateless".
 
-### Reading and writing:
+### Reading and writing
 There are three ways to read and write bits:
  1. With `int`, where the first position is the LSB.
  2. With `Index`, from both ends.
@@ -25,7 +25,7 @@ There are three ways to read and write bits:
 Note that `Index` and `Range` are implemented to work like other BCL types, so the last element is `^1` and not `^0`, and so on.
 
 
-### Printing and formatting:
+### Printing and formatting
 
 Formatting is implemented through `ISpanFormattable` and `IUtf8SpanFormattable`; this includes support for interpolated strings.
 
@@ -50,7 +50,7 @@ Formatting examples:
 | X4     | `ulong`  | 0xAAAAAAAAAAAA | `0000 AAAA AAAA AAAA` |
 
 
-### Other common operations:
+### Other common operations
  - The number of bits the bitfield can hold can be accessed statically as `BitField<T>.Capacity`.
  - The actual value in the bitfield can be read through `Value`.
  - The number of set bits in the bitfield can be computed through `Count()`. This will use `POPCNT` if the underlying type supports it.
@@ -60,7 +60,7 @@ Formatting examples:
  - Explicit casts are supported to and from the underlying type.
 
 
-### Additional bitwise operations defined in `BitFieldExtensions`:
+### Additional bitwise operations defined in `BitFieldExtensions`
  
 This class contains additional operations defined as extension methods. This is an overview, see the corresponding XML documentation for more details.
 
