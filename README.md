@@ -3,7 +3,7 @@
 
 # BitField
 
-Contains a stateless, generic bitfield type `BitField<T>`. Can take advantage of hardware support through intrinsics, if available.
+Contains a stateless, generic bitfield type `BitField<T>`. Can take advantage of POPCNT, BMI1, and BMI2 hardware support through intrinsics, if available.
 
 Currently, the following types are tested:
  - `byte`
