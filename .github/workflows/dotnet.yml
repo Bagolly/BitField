@@ -34,7 +34,7 @@ jobs:
         color: brightgreen
         path: tests/BitFieldTests/TestResults/coverage.opencover.xml
         gist-filename: bitfield-code-coverage.json
-        gist-id: 1234567890abcdef1234567890abcdef
+        gist-id: d84251f0d4ab9946ba92c6f1ae25ef79
         gist-auth-token: ${{ secrets.GIST_PERSONAL_ACCESS_TOKEN }}  
 
 
