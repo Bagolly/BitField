@@ -32,7 +32,7 @@ jobs:
       with:
         label: Code Coverage
         color: brightgreen
-        path: tests/BitfieldTests/TestResults/coverage.opencover.xml
+        path: tests/BitFieldTests/TestResults/coverage.opencover.xml
         gist-filename: bitfield-code-coverage.json
         gist-id: 1234567890abcdef1234567890abcdef
         gist-auth-token: ${{ secrets.GIST_PERSONAL_ACCESS_TOKEN }}  
