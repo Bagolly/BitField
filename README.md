@@ -48,7 +48,7 @@ Formatting examples:
 | O3     | `byte`   | 7              | `007`                 |
 | B4     | `ushort` | 0xBEEF         | `1011 1110 1110 1111` |
 | X4     | `ulong`  | 0xAAAAAAAAAAAA | `0000 AAAA AAAA AAAA` |
-
+| b3     | `byte`   | 0xAA           | `10 101 010`          |
 
 ### Other common operations
  - The number of bits the bitfield can hold can be accessed statically as `BitField<T>.Capacity`.
