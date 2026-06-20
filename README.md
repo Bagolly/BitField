@@ -64,7 +64,7 @@ Formatting examples:
  
 This class contains additional operations defined as extension methods. This is an overview, see the corresponding XML documentation for more details.
 
-- `BlendWith<T>(T a, T b, T c)`: conditionally blend of `a` and `b` using `c` as a mask. Similar to variable blends in AVX.
+- `BlendWith<T>(T a, T b, T c)`: conditionally blend `a` and `b` using `c` as a mask. Similar to variable blends in AVX.
 - `SwapRange<T>(T a, int i, int j, int length)`: swap two non-overlapping substrings of the same length within a bitfield.
 - `Interleave`: interleave the bits of two bitfields __*__.
 
